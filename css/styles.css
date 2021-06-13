@@ -486,7 +486,7 @@ letter-spacing: 0.03em;
   text-align: center;
   height: 600px;
   background-color: var(--background-clients);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url(/img/img-background.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url(/img/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
