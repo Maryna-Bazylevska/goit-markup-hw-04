@@ -27,6 +27,7 @@ margin: 0 auto;
 padding: 0 15px;
 box-sizing: border-box;
 
+
 }
 img {
   max-width: 100%;
@@ -227,7 +228,7 @@ letter-spacing: 0.02em;
 .button-hero:focus,
 .button-hero:active,
 .button-hero:hover{
-  background-color: #1c1c1d
+  background-color: #188ceb;
 }
 .advantages{
   display: flex;
@@ -253,6 +254,9 @@ letter-spacing: 0.02em;
 }
 .advantages-list:last-child{
   margin-right: 0;
+}
+.advantages-text{
+  padding-bottom: 94px;
 }
 .button {
  
@@ -455,13 +459,11 @@ letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text,
-.profession,
-
-.contacts-footer{
+.profession,{
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-margin-bottom: 94px;
+;
 
 }
 .text {
@@ -601,7 +603,9 @@ padding-bottom: 20px;
   justify-content: center;
   align-items: center;
   border: 1px solid var(--color--social);
-  
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
 }
 .company-icon{
   display: flex;
@@ -639,7 +643,7 @@ padding-bottom: 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1,192;
+  line-height: 1.153;
   letter-spacing: 0.03em;
   text-decoration: none;
   width: 145px;
@@ -651,9 +655,15 @@ padding-bottom: 20px;
 
 }
 .contacts-footer{
+  
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 94px;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+ 
   
  
 }
@@ -690,17 +700,17 @@ letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 .footer {
-  height: 252px;
-  text-align: left;
+  
+  
   background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 .container-footer{
   display: flex;
   align-items: baseline;
+  height: 252px;
   
 }
 .footer-social-link{
@@ -710,9 +720,10 @@ letter-spacing: 0.03em;
   align-content: flex-start;
 }
 .footer-contacts{
- 
-  margin-right: 70px;
-  width: 231px;
+ width: 391px;
+  padding-top: 60px;
+  padding-right: 70px;
+  padding-bottom: 60px;
 }
 .pre-subtitle-footer{
   font-family: Roboto;
@@ -725,6 +736,8 @@ letter-spacing: 0.03em;
   margin-bottom: 20px;
   display: flex;
   align-content: center;
+  padding-top: 72px;
+  margin-top: 0;
 
 }
 .social-icons-li{
@@ -736,6 +749,7 @@ letter-spacing: 0.03em;
 }
 .social-icons-footer{
   margin-top: 0px;
+  padding-bottom: 72px;
 }
 .icon-footer{
   fill: var(--secondary-color);
