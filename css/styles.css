@@ -620,10 +620,7 @@ padding-bottom: 20px;
   border: 1px solid #2196F3;
   border-radius: 4px;
 }
-.company-icon:hover{
-  border: 1px solid #2196F3;
-  border-radius: 4px;
-}
+
 .company-icon:hover .icon-clients{
   fill: var(--accent-kolor);
 }
