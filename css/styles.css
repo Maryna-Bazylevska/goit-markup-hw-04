@@ -616,6 +616,10 @@ padding-bottom: 20px;
   border-radius: 4px;
  
 }
+.icon-clients-li:hover{
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+}
 .company-icon:hover{
   border: 1px solid #2196F3;
   border-radius: 4px;
