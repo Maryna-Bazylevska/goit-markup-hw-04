@@ -104,9 +104,7 @@ border-bottom-color:var(--border-button-color) ;
  
   margin-right: 50px;
 }
-.nav-li:last-child{
 
-}
   
 
 .link {
@@ -138,9 +136,8 @@ letter-spacing: 0.02em;
 .contacts-li:last-child{
   margin-right: 0px;
 }
-.mail{
-  
-}
+
+
 .contacts-header{
  display: flex;
  text-align: center;
@@ -282,7 +279,7 @@ letter-spacing: 0.02em;
   margin-right: 0px;
 }
   
-}
+
 
 .buttons-list-li{
   margin-right: 8px;
@@ -361,7 +358,7 @@ height: 38px;
 }
 
 
-}
+
 .team-li:last-child{
   margin-right: 0;
 }
@@ -459,12 +456,10 @@ letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text,
-.profession,{
+.profession{
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-;
-
 }
 .text {
   color: var(--primary-text-color);
@@ -653,14 +648,11 @@ padding-bottom: 20px;
 .logo-footer-second-part {
   color: var(--secondary-color);
 }
-
-}
 .contacts-footer{
   
     font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  margin-bottom: 94px;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -701,8 +693,6 @@ letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 .footer {
-  
-  
   background-color: #2f303a;
   display: flex;
   align-items: center;
@@ -715,16 +705,18 @@ letter-spacing: 0.03em;
   
 }
 .footer-social-link{
-  width: 118px;
+  padding-top: 72px;
+  padding-bottom: 100px;
+  width: 206px;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
 }
 .footer-contacts{
- width: 391px;
+ width: 231px;
   padding-top: 60px;
-  padding-right: 70px;
   padding-bottom: 60px;
+  margin-right: 70px;
 }
 .pre-subtitle-footer{
   font-family: Roboto;
@@ -737,8 +729,8 @@ letter-spacing: 0.03em;
   margin-bottom: 20px;
   display: flex;
   align-content: center;
-  padding-top: 72px;
   margin-top: 0;
+  padding-top: 0px;
 
 }
 .social-icons-li{
@@ -750,7 +742,7 @@ letter-spacing: 0.03em;
 }
 .social-icons-footer{
   margin-top: 0px;
-  padding-bottom: 72px;
+  padding-bottom: 0px;
 }
 .icon-footer{
   fill: var(--secondary-color);
